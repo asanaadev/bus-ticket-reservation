@@ -60,11 +60,3 @@ bus-ticket-reservation/
 ```
 
 To change the sample timetable, edit `SERVICES` in `bus_ticket_reservation/catalog.py`. Each listed service runs daily within the 30-day booking window.
-
-## Limits
-
-This is an offline learning project: it has no payment processing, live bus data, user accounts, or network synchronization. A reference plus the booking phone number is required to view or cancel a ticket, but it is not a full authentication system. Before offering real travel services, the app would need operator integration, secure accounts, payment handling, policy rules, and deployment controls.
-
-## Share on GitHub
-
-The project is ready to commit. The SQLite database and Python cache files are excluded by `.gitignore`. Add your own GitHub repository URL to the appendix in `REPORT.md` after you publish it.
